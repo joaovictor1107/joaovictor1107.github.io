@@ -37,9 +37,7 @@
 .formacao-container strong{
    color: #ffffff;
 }
-.faculdade-lista li{
-    max-width: 25%;
-}
+
 .faculdade-lista{
     
     display: flex;
@@ -73,6 +71,8 @@
     font-size: 1.125rem;
     color: #a3a3a3;
 }
+
+
 .cursos{
     margin-bottom: 60px;
 }
