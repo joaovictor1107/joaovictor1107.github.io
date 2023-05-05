@@ -62,6 +62,13 @@
     line-height: 1.4;
     color: #525252;
 }
+.empresa-habilidades li:hover{
+   background: #0000ff4d;
+   box-shadow: -1px 1px rgb(4, 0, 255);
+
+	transform: scale(1.09);
+   
+}
 .empresa-habilidades{
     display: flex;
     flex-wrap: wrap;

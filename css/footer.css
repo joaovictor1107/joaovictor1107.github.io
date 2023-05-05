@@ -7,13 +7,14 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 100px;
+    gap: 100px 250px;
     align-items: center;
 }
 .footer-texto{
     font-size: 1.5rem;
     line-height: 1.33;
     color: #ccc;
+   
 
 }
 .footer-contato li{
@@ -40,4 +41,29 @@
     .footer-contato li{
         font-size: 1.5rem;
     }
+}
+
+/*logo instagram*/
+.footer-contato{
+    position: relative;
+}
+.footer-contato .instagramlogo{
+    left: -70px;
+    top: 140px;
+    position: absolute;
+    width: 50px;
+}
+
+.footer-contato .telefonelogo{
+    left: -70px;
+    top: 60px;
+    position: absolute;
+    width: 50px;
+}
+
+.footer-contato .emailogo{
+    left: -70px;
+    top: -10px;
+    position: absolute;
+    width: 50px;
 }
